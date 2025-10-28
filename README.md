@@ -13,3 +13,14 @@ El sistema se divide en dos perfiles principales:
 - 👤 **Cliente**: puede registrar incidencias, consultar su estado, adjuntar imágenes o documentos y cambiar su contraseña.
 - 🛠️ **Administrador/Técnico**: puede visualizar todas las incidencias, añadir comentarios, cerrar incidencias, gestionar usuarios y notificar a los centros por correo electrónico.
 
+
+## Tecnologías utilizadas
+
+| Componente | Descripción |
+|-------------|--------------|
+| **Lenguajes** | PHP, HTML, CSS, JavaScript |
+| **Base de datos** | MySQL |
+| **Servidor web** | Apache2 |
+| **FTP** | vsftpd |
+| **Correo** | Integración con servidor SMTP (mail.prosadoc.com) |
+| **Entorno de desarrollo** | XAMPP / VirtualBox (Ubuntu 22.04) |
