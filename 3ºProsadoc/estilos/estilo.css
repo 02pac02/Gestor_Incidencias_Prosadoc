@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body, html{
+  background-image: url(../imagenes/fondo.jpg);
+  font-family: 'gotham-light-webfont';
+  min-height: 100%;
+}
+@font-face {
+    font-family: 'gotham-thin-webfont';
+    src: url('gotham-thin-webfont.eot');
+    src: url('../fontgotham/gotham-thin-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fontgotham/gotham-thin-webfont.woff2') format('woff2'),
+      url('../fontgotham/gotham-thin-webfont.woff') format('woff'),
+      url('../fontgotham/gotham-thin-webfont.ttf') format('truetype'),
+      url('../fontgotham/gotham-thin-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham-light-webfont';
+    src: url('gotham-light-webfont.eot');
+    src: url('../fontgotham/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fontgotham/gotham-light-webfont.woff2') format('woff2'),
+      url('../fontgotham/gotham-light-webfont.woff') format('woff'),
+      url('../fontgotham/gotham-light-webfont.ttf') format('truetype'),
+      url('../fontgotham/gotham-light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham-bold-webfont';
+    src: url('gotham-bold-webfont.eot');
+    src: url('../fontgotham/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fontgotham/gotham-bold-webfont.woff2') format('woff2'),
+      url('../fontgotham/gotham-bold-webfont.woff') format('woff'),
+      url('../fontgotham/gotham-bold-webfont.ttf') format('truetype'),
+      url('../fontgotham/gotham-bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="email"], select {
+  display: inline-block;
+  width: initial;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+  vertical-align: middle;
+  padding: 6px 1%;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+}
+
+.imagen_logo{
+  width: 60%;
+}
+
+.login{
+	text-align: -webkit-center;
+	margin: 0 auto;
+  padding-top: 5%;
+	width: 40%;
+}
+
+.logeo_formulario {
+	width: 100%;
+	align-items: center;
+}
+.logeo_formulario_ex {
+	padding: 2%;
+}
+
+.logeo_formulario_campo {
+	border-radius: 20px;
+	padding: 2%;
+	background-color: #fff;
+	color: #555;
+	text-align: center;
+	width: 60%;
+	
+}
+
+.logeo_formulario_campo::-webkit-input-placeholder {
+	text-align: center;
+	color: #555;
+}
+
+.boton {
+  margin: 5px 0;
+  border: 0;
+  color: #fff;
+  background-color: #3030E9;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-family: 'gotham-light-webfont'; 
+  display: inline-block;
+}
+
+.imagen_logo_menu {
+	width: 50%;
+}
+
+.contenido{
+		padding-top: 2%;
+    padding-left: 1%;
+    position: relative;
+    float: left;
+    width: 75%;
+}
+
+.accion {
+	table-layout: fixed;
+  width: 100%;
+}
+
+.principal_tabla {
+	background: #638cb5;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+	color: #3030E9;
+	text-align: center;
+}
+
+.campo {
+  width: 20%;
+  display: inline-block;
+}
+.linea {
+   border: 2px solid #638cb5;
+}
+.consulta {
+  width: 15%;
+  display: inline-block;
+  padding: 0.5%;
+}
+
+.inicial {
+  color: white;
+  background-color: #638cb5;
+}
+
+.todo {
+  border: 2px solid #638cb5;
+}
+
+.boton-t {
+  width: 30%;
+  display: inline-block;
+}
+
+.menu {
+    padding-top: 2%;
+    position: relative;
+    float: left;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+.menu-sin {
+  border: 2px solid #638cb5;
+}
+.div-menu {
+  width: 100%;
+  padding-bottom: 10%;
+  padding-top: 2%;
+}
+.especial {
+  border-bottom: 2px solid #638cb5;
+}
+
+.window-notice {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+
+.window-notice .content {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+    min-width: 320px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.filtro {
+  width: 100%;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1024px){
+  .imagen_logo{
+    width: 80%;
+  }
+  .primero {
+    padding-top: 5%;
+  }
+  .disp {
+    display: none;
+  }
+
+}
+@media screen and (max-height: 500px){
+  .footer{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 552px){
+  .imagen_logo{
+    width: 100%;
+  }
+  .login{
+    width: 60%;
+    padding-top: 10%;
+    height: 90%;
+  }
+  .primero {
+    padding-top: 10%;
+  }
+  .contenido {
+    width: 80%;
+  }
+  .consulta {
+    width: 30%;
+  }
+}
